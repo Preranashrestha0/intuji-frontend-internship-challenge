@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+    justify-content: space-around;
+}
+
+.logo {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 1rem;
+}
+
+.nav-links a {
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.nav-links a:hover {
+    color: #00b4d8;
+}
+
+.button {
+    display: flex;
+    gap: 2rem;
+}
+
+.btn {
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 1rem 2.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.sign-in {
+    color: black;
+}
+
+.sign-in:hover {
+    background-color: #028090;
+    color: white;
+
+}
+
+.startbtn {
+    background-color: #4f46ba;
+    color: white;
+}
+
+.startbtn:hover {
+    background-color: #028090;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    position: relative;
+    height: fit-content;
+}
+.left-content {
+    display: flex;
+    gap: 3rem;
+}
+.content h1 {
+    padding-top: 5rem;
+    font-size: 3rem;
+    padding-left: 0;
+}
+.content h5{
+    font-size: 15px;
+    font-weight: normal;
+}
+#homepage-logo {
+    width: 25rem;
+    height: 45rem;
+}
+.image24 {
+    font-size: 20px;
+    padding-top: 30rem;
+}
+.image {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: fit-content;
+}
+.image #image1{
+    width: 5rem;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    height: auto;
+}
+.image #image2{
+    width: 7rem;
+    position: absolute;
+    top: 32rem;
+    right: 0;
+    height: auto;
+}
+.content-btn {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    gap: 3rem;
+    padding-top: 2rem;
+    margin: 0;
+}
+.cont-btn {
+    text-decoration: none;
+}
+.content-btn #get-started {
+    text-decoration: none;
+    background-color: #4f46ba;
+    color: white;
+    padding: 0.9rem 1.5rem;
+    border-radius: 40px;
+    font-size: 0.9rem;
+}
+.content-btn i{
+    background-color: rgb(34, 212, 151);
+    color: white;
+    padding: 0.8rem;
+    border-radius:50px;
+    font-size: 1.4rem;
+}
+.content-service {
+    display: flex;
+    padding-top: 1rem;
+    font-size: 15px;
+    gap: 2rem;
+    margin-top: 2rem;
+    color: rgb(117, 112, 149)
+}
+.content-service i{
+    color: #4f46ba;
+    font-size: 20px;
+}
+.end-content {
+    background-color: #F5F6F8;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 10rem;
+    z-index: 10;
+    bottom: -10rem;
+    position: absolute;
+    text-align: center;
+    gap: 20px;
+}
+.product-content {
+    background-color: black;
+    height: 20px;
+}
