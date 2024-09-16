@@ -139,7 +139,7 @@
     background-color: rgb(34, 212, 151);
     color: white;
     padding: 0.8rem;
-    border-radius:50px;
+    border-radius:100px;
     font-size: 1.4rem;
 }
 .content-service {
@@ -210,7 +210,7 @@
     border-radius: 20px;
     position: relative;
     padding: 2rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 0.5px 0.5px rgb(200, 199, 199);
 }
 .card-number {
     position: absolute;
@@ -333,13 +333,88 @@
 
  }
  .testimonials {
-    padding-left: 8rem;
     padding-top: 5rem;
+    gap: 200px;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
  }
  .testimonials h1 {
     font-size: 3.5rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    padding-bottom: 20px;
  }
+ .testimonials-content {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ .testimonials-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+    position: relative;
+    padding-left: 100px;
+ }
+ .testimonials-card1, .testimonials-card2  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:80px;
+    align-items: center;
+    color: #0e0d0d;
+    font-size: 18px;
+    font-weight:500;
+    background-color: white;
+    box-shadow: 0px 0px 0.5px 0.5px rgb(200, 199, 199);
+    margin-top: 50px;
+    padding: 40px;
+    border-radius: 10px;
+ }
+ .testimonials-image{
+    height: 40vh;
+    width: 35vh;
+    
+ }
+ .testimonials-cards #image{
+    position: absolute;
+    font-size: 2px;
+ }
+ .listing {
+    background-color: #3734a9;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    align-items: center;
+    padding: 2px;
+    gap: 10px;
+    margin-top: 5rem;
+ }
+ .listing img {
+    position: absolute;
+    top: 14px;
+    right: 0px;
+ }
+ .listing h1{
+    font-size: 60px;
+    padding-bottom: 10px;
+ }
+ .blogs {
+    padding: 90px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 8rem;
+ }
+ .blogs h1{
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 5rem;
+ }
+ .blogs-topcontent {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: start;
+    flex-direction: column;
+ }
+
+ 
