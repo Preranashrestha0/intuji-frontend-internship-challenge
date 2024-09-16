@@ -14,8 +14,14 @@
     </title>
 </head>
 <body>
-        <div id="navbar"></div>
-        <div id="product"></div>
+        <div class="main-div">
+            <div id="navbar"></div>
+            <div id="logo"></div>
+            <div id="product"></div>
+            <div id="trackpayment"></div>
+            <div id="features"></div>
+            <div id="testimonials"></div>
+        </div>
  
         <script>
             fetch('navbar.html')
@@ -23,12 +29,31 @@
               .then(data => {
                 document.getElementById('navbar').innerHTML = data;
               });
-        
+              fetch('logo.html')
+              .then(response => response.text())
+              .then(data => {
+                document.getElementById('logo').innerHTML = data;
+              });
             fetch('product.html')
               .then(response => response.text())
               .then(data => {
                 document.getElementById('product').innerHTML = data;
               });
+            fetch('trackpayment.html')
+            .then(response => response.text())
+            .then(data => {
+            document.getElementById('trackpayment').innerHTML = data;
+            });
+            fetch('features.html')
+            .then(response => response.text())
+            .then(data => {
+            document.getElementById('features').innerHTML = data;
+            });
+            fetch('testimonials.html')
+            .then(response => response.text())
+            .then(data => {
+            document.getElementById('testimonials').innerHTML = data;
+            });
           </script>
 </body>
 
